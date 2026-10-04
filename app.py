@@ -90,7 +90,7 @@ def main():
             st.subheader("1. Demographics & Service")
             c1, c2, c3 = st.columns(3)
             with c1:
-                inp_name = st.text_input("Name / ID (Optional)", "User-001")
+                inp_name = st.text_input("Name / ID", "User-001")
                 inp_age = st.number_input("Age", 21, 58, 35)
                 inp_gender = st.selectbox("Gender", ["Male", "Female"])
                 inp_rank = st.selectbox("Rank", ["Constable", "Head Constable", "ASI", "SI", "Inspector", "Dy. Commandant", "Commandant", "DIG", "IG"])
